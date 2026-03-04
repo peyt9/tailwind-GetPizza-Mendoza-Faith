@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Pizza</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+    <header class="py-7 fixed shadow-md w-full z-50 bg-white">
+        <div class="container">
+            <!--wrapper-->
+            <div class="flex justify-between items-center">
+                <!--logo-->
+                <img src="../IMG/LOGO.png" alt="logo">
+                <!--nav-->
+                <nav class="headerNav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#home">Menu</a></li>
+                        <li><a href="#home">Contacts</a></li>
+                    </ul>
+                </nav>
+                <!--toggle menu-->
+                <div class="toggleMenu">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="transparent"></div>
+            </div>
+        </div>
+    </header>
+    <!--banner-->
+
+    <div class="container pt-45 pb-5 md:pt-44 md:pb-5">
+        <div class="flex flex-row justify-center">
+            <a class="text-primary"><i class="fa-solid fa-bullhorn"></i></a>
+            <p class="text-primary font-semibold text-center">
+                This website provides information about our store. Online transactions are coming soon.
+            </p>
+        </div>
+    </div>
+
+    <section class="bg-secondary pt-36 pb-12 md:pt-44 md:pb-20">
+        <div class="bg-secondary/20 mx-4 md:mx-0 lg:mx-0">
+            <div>
+                <img src="../IMG/banner-home.png" alt="banner-home">
+                <h1>HUNGRY? YOU'RE IN THE RIGHT PLACE</h1>
+                <a href="#" class="btn btn--primary">VIEW OUR MENU</a>
+            </div>
+        </div>
+    </section>
+
+    <!--welcome to get pizza-->
+    <section class="bg-white py-20">
+        <div class="container max-w-5xl mx-auto px-6">
+            <!--wrapper-->
+            <div class=" flex flex-col gap-18 md:grid grid-cols-2 items-center">
+                <div class=" relative w-70 h-55 md:w-100 md:h-70 mx-auto">
+                     <!--image 1-->
+                    <img class=" absolute top-0 left-0 w-50 h-35 md:w-100 md:h-70 object-cover rounded-2xl border-[5px] border-black shadow-lg"
+                        src="../IMG/3chefs.png" alt="3chefs"> 
+                        <!--image 2-->
+                    <img class="absolute -bottom-10 right-8 w-55 h-37.5 md:w-100 md:h-70 object-cover rounded-2xl border-[5px] border-black shadow-lg" 
+                    src="../IMG/food.png"
+                        alt="">
+                </div>
+                <!--text-->
+                <div>
+                    <h2 class="text-black">WELCOME TO GET PIZZA</h2>
+                    <p class="text-primary font-semibold">OUR CHEFS ARE WORKING 24/7 AND ARE READY TO ACCEPT VISITORS
+                        AND AT ANY TIME OF THE DAY AND NIGHT
+                    </p>
+                    <p class="text-black gap-10 py-5">We would like to take this opportunity to welcome you at
+                        our Pizza House. We are offering a warm, friendly
+                        atmosphere to share a meal with family and friends at
+                        any time of the day or evening.</p>
+        </div>
+ </div>
+            </div>
+        
+    </section>
+
+
+        <!--cards-->
+        <section class="py-12 md:py-20 bg-tertiary text-white">
+      <div class="container">
+        <!-- Title -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="uppercase font-bold">
+            WE OFFER PEOPLE BEST WAY TO EAT BEST FOOD
+          </h2>
+        </div>
+
+        <!-- Food Tabs -->
+        <div class="flex justify-center gap-6 mb-12">
+          <!-- Pizza -->
+          <div
+            class="eventTab active w-20 h-20 rounded-full bg-transparent flex items-center justify-center p-2 cursor-pointer border-2 border-secondary"
+            id="tabs-1"
+          >
+            <img src="../img/pizzaa.png" class="w-16" alt="pizza" />
+          </div>
+
+          <!-- Burger -->
+          <div
+            class="eventTab w-20 h-20 rounded-full bg-transparent flex items-center justify-center p-2 cursor-pointer"
+            id="tabs-2"
+          >
+            <img src="../img/burger.png" class="w-16" alt="burger" />
+          </div>
+          <!-- Chicken -->
+          <div
+            class="eventTab w-20 h-20 rounded-full bg-transparent flex items-center justify-center p-2 cursor-pointer"
+            id="tabs-3"
+          >
+            <img src="../img/chicken.png" class="w-16" alt="chicken" />
+          </div>
+          <!-- Drinks -->
+          <div
+            class="eventTab w-20 h-20 rounded-full bg-transparent flex items-center justify-center p-2 cursor-pointer"
+            id="tabs-4"
+          >
+            <img src="../img/drinks.png" class="w-16" alt="drink" />
+          </div>
+
+          <!-- Desserts -->
+          <div
+            class="eventTab w-20 h-20 rounded-full bg-transparent flex items-center justify-center p-2 cursor-pointer"
+            id="tabs-5"
+          >
+            <img src="../img/cake.png" class="w-16" alt="cake" />
+          </div>
+        </div>
+
+        <!-- TAB CONTENT -->
+        <div>
+          <!-- PIZZA -->
+          <div class="eventItem active" id="tabs-1-detail">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- Card -->
+              <div class="border border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img
+                    src="../img/prosciutto.png"
+                    class="w-36"
+                    alt="Prosciutto Pizza"
+                  />
+                </div>
+
+                <h5 class="uppercase font-semibold">PROSCIUTTO PIZZA</h5>
+
+                <p class="text-white font-semibold">$25.00</p>
+
+                <!-- Stars -->
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-3 border border-primary px-6 py-2 rounded-lg"
+                >
+                  Read more
+                </a>
+              </div>
+
+              <!-- Card -->
+              <div class="border border-white/30 rounded-xl p-6 text-center">
+                <div class="flex justify-center mb-6">
+                  <img
+                    src="../img/bbq pizza.png"
+                    class="w-36"
+                    alt="Barbecue Pizza"
+                  />
+                </div>
+
+                <h5 class="uppercase font-semibold">BARBECUE PIZZA</h5>
+
+                <p class="text-white font-semibold">$25.00</p>
+
+                <div class="text-secondary text-lg my-2">★★★★★</div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-3 border border-primary px-6 py-2 rounded-lg"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- BURGER -->
+          <div class="eventItem" id="tabs-2-detail">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- cards -->
+            </div>
+          </div>
+          <!-- CHICKEN  -->
+          <div class="eventItem" id="tabs-3-detail">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- cards -->
+            </div>
+          </div>
+          <!-- DRINKS  -->
+          <div class="eventItem" id="tabs-4-detail">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!--cards -->
+            </div>
+          </div>
+
+          <!-- DESSERT  -->
+          <div class="eventItem" id="tabs-5-detail">
+            <div class="grid md:grid-cols-2 gap-8">
+              <!-- cards -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--cta-->
+            <section class="bg-primary  py-15">
+                <div class="container">
+                <div class="text-center">
+                  <h2 class="text-white text-3xl font-bold">LET'S CONNECT</h2>
+                  <p class="text-white mt-2 mb-8">and get 10% off bill offers and invites</p>
+                </div>
+               <form action="flex justify-center ">
+                <div class="flex items-center px-8 py-4 bg-gray-100 w-[`600px`] rounded-3xl  ">
+                    <input type="email" class="flex-1 bg-transparent outline-none text-gray-600 placeholder-gray-500"
+                    placeholder="YOUR EMAIL ADDRESS"
+                    />
+                   
+                    <button class="bg-secondary hover:bg-tertiary/50 text-black font-medium px-6 py-2
+                    ">Subscribe</button>
+                </div>
+               </form>
+                </div>
+            </section>
+
+    <!--footer-->
+           <footer class="py-16">
+            <div class="max-w-md mx-auto text-center px-6">
+                <!--wrapper-->
+                <div class="flex justify-center mb-10">
+                    <img class="w-40" src="../IMG/LOGO.png" alt="logo-footer">
+                </div>
+                <!--address details 1-->
+                <div class="mb-8">
+                    <h3 class="font-bold text-xl mb-3">ADDRESS</h3>
+                    <p class="text-black">570 8th Ave, New York, NY <br>
+                        10018 United States</p>
+                </div>
+                <!--details2-->
+                <div class="mb-8">
+                    <h3 class="font-bold text-xl mb-3">BOOK A TABLE</h3>
+                    <p class="text-black">Dogfood Och Sliders Foodtruck.
+Under Om Oss Kan Ni Lasa </p>
+                </div>
+                <!--details 3-->
+                <div class="mb-8">
+                    <h3 class="font-bold text-xl mb-3">OPENING HOURS</h3>
+                    <p class="text-black">Monday - Friday <br>
+                        10:00 AM - 11:00PM
+                    </p>
+                </div>
+                <!--details 4-->
+                <p class="text-primary mt-6">01234567</p>
+            </div>
+           </footer>
+
+    <!--script-->
+    <script src="../js/togglemenu.js"></script>
+</body>
+</html>
