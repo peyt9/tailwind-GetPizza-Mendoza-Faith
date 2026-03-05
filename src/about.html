@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Pizza</title>
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="stylesheet" href="../favicon.ico">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
-
 <body>
     <header class="py-7 fixed shadow-md w-full z-50 bg-white">
         <div class="container">
@@ -23,7 +25,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="menu.html">Menu</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#home">Contacts</a></li>
                     </ul>
                 </nav>
                 <!--toggle menu-->
@@ -35,8 +37,7 @@
             </div>
         </div>
     </header>
-    <!--banner-->
-
+    <!--about banner-->
     <div class="container pt-45 pb-5 md:pt-44 md:pb-5">
         <div class="flex flex-row justify-center">
             <a class="text-primary"><i class="fa-solid fa-bullhorn"></i></a>
@@ -45,48 +46,123 @@
             </p>
         </div>
     </div>
-            <!--picture 1-->
-    <section class="bg-secondary pt-36 pb-12 md:pt-44 md:pb-20">
-        <div class="bg-secondary/20 mx-4 md:mx-0 lg:mx-0">
-            <div>
-                <img src="../IMG/banner-home.png" alt="banner-home">
-                <h1>HUNGRY? YOU'RE IN THE RIGHT PLACE</h1>
-                <a href="#" class="btn btn--primary">VIEW OUR MENU</a>
-            </div>
-        </div>
-    </section>
 
-    <!--welcome to get pizza-->
-    <section class="bg-white py-20">
-        <div class="container max-w-5xl mx-auto px-6">
-            <!--wrapper-->
-            <div class=" flex flex-col gap-18 md:grid grid-cols-2 items-center">
-                <div class=" relative w-70 h-55 md:w-100 md:h-70 mx-auto">
-                    <!--image 1-->
-                    <img class=" absolute top-0 left-0 w-50 h-35 md:w-100 md:h-70 object-cover rounded-2xl border-[5px] border-black shadow-lg"
-                        src="../IMG/3chefs.png" alt="3chefs">
-                    <!--image 2-->
-                    <img class="absolute -bottom-10 right-8 w-55 h-37.5 md:w-100 md:h-70 object-cover rounded-2xl border-[5px] border-black shadow-lg"
-                        src="../IMG/food.png" alt="">
+
+   <!--yt video section  -->
+     <section class=" pt-2 pb-12 md:py-3">
+        <div class="container">
+            <!-- wrapper -->
+             <div class="flex flex-col items-center  md:flex-row md:gap-15 ">
+                <div class="w-fit md:w-200">
+                    <iframe class="md:w-200 md:h-120" width="400"  height="250" src="https://www.youtube.com/embed/Y6MHE0-CQAs" title="Pizza HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <!--text-->
-                <div>
-                    <h2 class="text-black">WELCOME TO GET PIZZA</h2>
-                    <p class="text-primary font-semibold">OUR CHEFS ARE WORKING 24/7 AND ARE READY TO ACCEPT VISITORS
-                        AND AT ANY TIME OF THE DAY AND NIGHT
-                    </p>
-                    <p class="text-black gap-10 py-5">We would like to take this opportunity to welcome you at
+                <div class="py-10">
+                    <h1 class="text-primary md:text-[40px] md:max-w-3/4 leading-12 pb-5 md:leading-unset">SERVING GET PIZZAS BY THE SINCE 1985</h1>
+                    <p>We would like to take this opportunity to welcome you at
                         our Pizza House. We are offering a warm, friendly
                         atmosphere to share a meal with family and friends at
                         any time of the day or evening.</p>
                 </div>
-            </div>
+
+             </div>
         </div>
+     </section>
 
-    </section>
+    <!-- our story section -->
+      <section class="pb-12 md:py-20">
+        <div class="container">
+            <h2 class="text-center">OUR STORY</h2>
+            <!-- wrapper -->
+             <div class=" md:grid md:grid-cols-2 md:gap-5">
+                <!-- left/accordion -->
+                <div class="md:py-10 md:px-25">
+                    <!-- accordion 1 -->
+                    <div class="yearItem my-4">
+                    <!-- year title -->
+                    <div class="yearItem--title p-2 bg-primary text-white flex justify-between items-center ">
+                        <h6>1985</h6>
+                       <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <!-- year details -->
+                     <div class="yearItem--detail px-2 text-justify">
+                        <p>1985 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            enim ad minim veniam. ex ea commodo consequatuis irure. Dolor
+                            in reprehenderit in volue.</p>
+                     </div>
+                    </div>
+                    <!-- accordion 2 -->
+                    <div class="yearItem my-4">
+                    <!-- year title -->
+                    <div class="yearItem--title p-2 bg-primary text-white flex justify-between items-center ">
+                        <h6>1990</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <!-- year details -->
+                     <div class="yearItem--detail px-2 text-justify">
+                        <p>1990 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            enim ad minim veniam. ex ea commodo consequatuis irure. Dolor
+                            in reprehenderit in volue.</p>
+                     </div>
+                    </div>
+                    <!-- accordion 3 -->
+                    <div class="yearItem my-4">
+                    <!-- year title -->
+                    <div class="yearItem--title p-2 bg-primary text-white flex justify-between items-center ">
+                        <h6>2000</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <!-- year details -->
+                     <div class="yearItem--detail px-2 text-justify">
+                        <p>2000 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            enim ad minim veniam. ex ea commodo consequatuis irure. Dolor
+                            in reprehenderit in volue.</p>
+                     </div>
+                    </div>
+                    <!-- accordion 4 -->
+                    <div class="yearItem my-4">
+                    <!-- year title -->
+                    <div class="yearItem--title p-2 bg-primary text-white flex justify-between items-center ">
+                        <h6>2010</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <!-- year details -->
+                     <div class="yearItem--detail px-2 text-justify">
+                        <p>2010 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            enim ad minim veniam. ex ea commodo consequatuis irure. Dolor
+                            in reprehenderit in volue.</p>
+                     </div>
+                    </div>
+                    <!-- accordion 5 -->
+                    <div class="yearItem my-4">
+                    <!-- year title -->
+                    <div class="yearItem--title p-2 bg-primary text-white flex justify-between items-center ">
+                        <h6>2021</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <!-- year details -->
+                     <div class="yearItem--detail px-2 text-justify">
+                        <p>2021 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            enim ad minim veniam. ex ea commodo consequatuis irure. Dolor
+                            in reprehenderit in volue.</p>
+                     </div>
+                    </div>
 
-
-    <!-- offer -->
+                </div>
+                <!-- right/image -->
+                 <div class="hidden overflow-hidden md:block">
+                    <img class="rounded-3xl"
+                    src="../IMG/meeting.png" alt="">
+                 </div>
+             </div>
+        </div>
+      </section>
+         
+    <!-- offer section -->
     <section class="bg-tertiary py-12 md:py-20">
       <div class="container">
         <h2 class="text-white mb-10 text-center">
@@ -126,7 +202,7 @@
         </div>
         <!-- content -->
         <div>
-          <!-- item1 pizza -->
+          <!-- 1 item pizza -->
           <div class="foodItem active" id="tab-1-detail">
             <div class="foodItemWrap flex justify-center gap-2">
               <!-- card -->
@@ -178,7 +254,7 @@
               </div>
             </div>
           </div>
-          <!-- item2 burger -->
+          <!-- 2 items burger -->
           <div class="foodItem" id="tab-2-detail">
             <div class="foodItemWrap flex justify-center gap-2">
               <!-- card -->
@@ -230,7 +306,7 @@
               </div>
             </div>
           </div>
-          <!-- item3  chicken-->
+          <!-- 3 items  chicken-->
           <div class="foodItem" id="tab-3-detail">
             <div class="foodItemWrap flex justify-center gap-2">
               <!-- card -->
@@ -282,7 +358,7 @@
               </div>
             </div>
           </div>
-          <!-- item4 drinks -->
+          <!-- 4 items drinks -->
           <div class="foodItem" id="tab-4-detail">
             <div class="foodItemWrap flex justify-center gap-2">
               <!-- card -->
@@ -334,7 +410,7 @@
               </div>
             </div>
           </div>
-          <!-- item5 cake-->
+          <!-- 5 items cake-->
           <div class="foodItem" id="tab-5-detail">
             <div class="foodItemWrap flex justify-center gap-2">
               <!-- card -->
@@ -389,8 +465,93 @@
         </div>
       </div>
     </section>
+            
+    <!-- clients review -->
+     <section class="py-12 md:py-20">
+        <div class="container">
+            <h2 class="text-center mb-10">CLIENTS REVIEW</h2>
+            <!-- wrapper -->
+             <div class="md:max-w-2xl md:mx-auto">
+                <div class="reviewSlider">
+                    <!-- slider 1  -->
+                    <div class="reviewItem  text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback.png" alt="client profile picture">
+                        <p class="my-5  md:justify-center">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                    <!-- slider 2  -->
+                    <div class="reviewItem text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback2.png" alt="client profile picture">
+                        <p class="my-5">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                    <!-- slider 3  -->
+                    <div class="reviewItem text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback3.png" alt="client profile picture">
+                        <p class="my-5">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                    <!-- slider 4  -->
+                    <div class="reviewItem text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback4.png" alt="client profile picture">
+                        <p class="my-5">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                    <!-- slider 5  -->
+                    <div class="reviewItem text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback5.png" alt="client profile picture">
+                        <p class="my-5">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                    <!-- slider 6  -->
+                    <div class="reviewItem text-center">
+                        <img class="size-20 object-cover rounded-full mx-auto mb-4"
+                        src="../IMG/feedback6.png" alt="client profile picture">
+                        <p class="my-5">
+                            "Etiam sapien sem at sagittis congue augue massa varius
+                            sodales sapien undo tempus dolor egestas magna
+                            suscipit magna tempus aliquet porta sodales augue
+                            suscipit luctus neque"
+                        </p>
+                        <p>Patrick Greenish</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+     </section>
 
-    <!--cta-->
+
+<!--cta-->
     <section class="bg-primary  py-15">
         <div class="container">
             <div class="text-center">
@@ -409,7 +570,7 @@
         </div>
     </section>
 
-    <!--footer-->
+ <!--footer-->
     <footer class="py-16">
         <div class="max-w-md mx-auto text-center px-6">
             <!--wrapper-->
@@ -440,10 +601,12 @@
         </div>
     </footer>
 
+
     <!--script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="../js/togglemenu.js"></script>
     <script src="../js/tab.js"></script>
-    
+    <script src="../js/slider.js"></script>
+    <script src="../js/accordion.js"></script>
 </body>
-
 </html>

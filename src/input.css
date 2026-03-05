@@ -115,4 +115,73 @@
   .btn--secondary{
     @apply border bg-secondary border-primary hover:bg-gray-100 hover:text-black/80;
   }
+
+
+.foodCard{
+    @apply text-white border border-white rounded-2xl w-full max-w-120 inline-block p-8 mt-10;
 }
+.foodCard, .foodCard ul{
+    @apply text-center justify-center items-center;
+}
+
+.foodCard img{
+    @apply size-30 my-5 mx-auto;
+}
+.foodTab.active{
+    @apply border-2 border-secondary rounded-full p-1 box-content;
+}
+.foodItem{
+    @apply hidden lg:hidden;
+}
+.foodItem.active{
+    @apply block lg:block;
+}
+
+
+
+
+
+.eventTab{
+    @apply font-bold border-r pr-3 cursor-pointer lg:px-10;
+  }
+  .eventTab:last-child{
+    @apply border-none;
+  }
+  .eventTab.active{
+    @apply text-black;
+  }
+  .eventItemWrap{
+    @apply flex flex-col flex-wrap gap-5;
+  }
+  .eventItem{
+    @apply hidden lg:hidden;
+  }
+
+
+.yearItem--detail{
+  @apply max-h-0 overflow-hidden duration-100 mt-1;
+}
+.yearItem.active i{
+  @apply rotate-180;
+}
+
+
+.card,
+  .eventCard{
+    @apply bg-white dark:bg-gray-800 dark:text-white p-8 rounded-xl shadow-md;
+  }
+  .card img{
+    @apply size-16 mb-6;
+  }
+  .card h3,
+  .eventCard h5{
+    @apply font-semibold mb-3 text-blue-700;
+  }
+  .card p{
+    @apply mb-5;
+  }
+  .card a{
+    @apply text-blue-600 font-medium hover:text-blue-700;
+  }
+}
+
